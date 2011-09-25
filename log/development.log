@@ -404,3 +404,34 @@ Started GET "/pages/home" for 127.0.0.1 at Sat Sep 24 22:31:54 +0800 2011
   Processing by PagesController#home as HTML
 Rendered pages/home.html.erb within layouts/application (3.6ms)
 Completed 200 OK in 24ms (Views: 23.1ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/say/goodbye" for 127.0.0.1 at Sun Sep 25 20:39:09 +0800 2011
+  Processing by SayController#goodbye as HTML
+Rendered say/goodbye.html.erb (1.1ms)
+Completed 200 OK in 23ms (Views: 21.9ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sun Sep 25 20:39:18 +0800 2011
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb (0.3ms)
+Completed 200 OK in 14ms (Views: 13.4ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sun Sep 25 20:49:05 +0800 2011
+  Processing by PagesController#home as HTML
+Rendered pages/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 11ms (Views: 10.2ms)
+
+
+Started GET "/pages/contact" for 127.0.0.1 at Sun Sep 25 20:49:14 +0800 2011
+  Processing by PagesController#contact as HTML
+Rendered pages/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 7.8ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at Sun Sep 25 20:49:23 +0800 2011
+  Processing by PagesController#about as HTML
+Rendered pages/about.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 20ms (Views: 19.7ms)
