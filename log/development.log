@@ -665,3 +665,188 @@ ActionController::RoutingError (No route matches "/images/logo.png"):
   
 
 Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (8.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Thu Sep 29 21:50:52 +0800 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (2.6ms)
+Rendered layouts/_header.html.erb (10.1ms)
+Rendered pages/home.html.erb within layouts/application (19.1ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error (undefined local variable or method `root_path' for #<#<Class:0xb7204fd8>:0xb7204218>):
+    1: <header>
+    2: <% logo = image_tag("logo.png", :alt => "Sample App", :class => "round") %>
+    3: <%= link_to logo, root_path %>
+    4: <nav class="round">
+    5: <ul>
+    6: <li><%= link_to "Home", root_path %></li>
+  app/views/layouts/_header.html.erb:3:in `_app_views_layouts__header_html_erb___608427935__611375268_272896'
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__48109338__611317548_0'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.5ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.5ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Thu Sep 29 21:54:20 +0800 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (3.0ms)
+Rendered layouts/_header.html.erb (1.7ms)
+Rendered layouts/_footer.html.erb (1.4ms)
+Rendered pages/home.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 28ms (Views: 28.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Thu Sep 29 21:54:21 +0800 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Sep 29 21:54:25 +0800 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.7ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered layouts/_footer.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 32ms (Views: 30.4ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Thu Sep 29 21:54:25 +0800 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/help" for 127.0.0.1 at Thu Sep 29 21:54:31 +0800 2011
+  Processing by PagesController#help as HTML
+Rendered layouts/_stylesheets.html.erb (9.8ms)
+Rendered layouts/_header.html.erb (2.7ms)
+Rendered layouts/_footer.html.erb (1.1ms)
+Rendered pages/help.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 44ms (Views: 44.2ms)
+
+
+Started GET "/help" for 127.0.0.1 at Thu Sep 29 21:54:31 +0800 2011
+  Processing by PagesController#help as HTML
+Rendered layouts/_stylesheets.html.erb (10.9ms)
+Rendered layouts/_header.html.erb (1.7ms)
+Rendered layouts/_footer.html.erb (1.3ms)
+Rendered pages/help.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 55ms (Views: 54.9ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Thu Sep 29 21:54:31 +0800 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Thu Sep 29 21:54:34 +0800 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (16.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at Thu Sep 29 21:54:36 +0800 2011
+  Processing by PagesController#contact as HTML
+Rendered layouts/_stylesheets.html.erb (1.5ms)
+Rendered layouts/_header.html.erb (11.7ms)
+Rendered layouts/_footer.html.erb (1.5ms)
+Rendered pages/contact.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 43ms (Views: 42.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at Thu Sep 29 21:54:36 +0800 2011
+  Processing by PagesController#contact as HTML
+Rendered layouts/_stylesheets.html.erb (1.1ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered layouts/_footer.html.erb (1.2ms)
+Rendered pages/contact.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 24ms (Views: 23.9ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Thu Sep 29 21:54:36 +0800 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (6.4ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Thu Sep 29 21:54:39 +0800 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Thu Sep 29 21:54:53 +0800 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /usr/lib/ruby/1.8/webrick/httpserver.rb:104)
+
+
+Started GET "/pages/home" for 127.0.0.1 at Sat Oct 08 21:50:04 +0800 2011
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (2.1ms)
+Rendered layouts/_header.html.erb (22.3ms)
+Rendered layouts/_footer.html.erb (0.4ms)
+Rendered pages/home.html.erb within layouts/application (57.4ms)
+Completed 200 OK in 71ms (Views: 70.0ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Oct 08 21:50:05 +0800 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.3ms)
+
+
+Started GET "/signup" for 127.0.0.1 at Sat Oct 08 21:50:07 +0800 2011
+  Processing by UsersController#new as HTML
+Rendered users/_form.html.erb (68.7ms)
+Rendered layouts/_stylesheets.html.erb (1.6ms)
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (1.1ms)
+Rendered users/new.html.erb within layouts/application (87.9ms)
+Completed 200 OK in 604ms (Views: 121.3ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Oct 08 21:50:08 +0800 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at Sat Oct 08 21:50:13 +0800 2011
+  Processing by UsersController#index as HTML
+Rendered layouts/_stylesheets.html.erb (2.0ms)
+Rendered layouts/_header.html.erb (1.9ms)
+Rendered layouts/_footer.html.erb (1.1ms)
+Rendered users/index.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 541ms (Views: 43.3ms)
+
+
+Started GET "/images/logo.png" for 127.0.0.1 at Sat Oct 08 21:50:14 +0800 2011
+
+ActionController::RoutingError (No route matches "/images/logo.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
